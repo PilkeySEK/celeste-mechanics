@@ -10,4 +10,4 @@ scoreboard objectives add tmp dummy
 
 scoreboard players add reload_counter stats.development 1
 
-function msg:power_on {msg:'{"text": "server loaded","color":"aqua"},{"text":" #","color":"blue"},{"score":{"objective":"stats.development","name":"reload_counter"},"color":"light_blue"}'}
+function msg:power_on {msg:'{"text": "server loaded","color":"aqua"},{"text":" #","color":"dark_blue"},{"score":{"objective":"stats.development","name":"reload_counter"},"color":"blue"}'}
