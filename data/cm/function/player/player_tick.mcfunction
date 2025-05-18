@@ -11,5 +11,5 @@ title @s actionbar [{"text": "Motion: ","color": "aqua"},\
 # mechanics
 function cm:mechanics/effects/reset_effects
 execute at @s run function cm:mechanics/wallslide
-execute as @s run function cm:mechanics/onto_wall_jump
+execute at @s run function cm:mechanics/onto_wall_jump
 function cm:mechanics/effects
