@@ -9,5 +9,5 @@ execute if score on_ground tmp matches 1 run return 0
 tag @s add cm.data.onto_wall_jumped
 
 scoreboard players operation new_motion tmp = @s cm.player.motion.y
-scoreboard players add new_motion tmp 100000
+scoreboard players add new_motion tmp 010000
 execute store result entity @s Motion[1] double 0.00001 run scoreboard players get new_motion tmp
