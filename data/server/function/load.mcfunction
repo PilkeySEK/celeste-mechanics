@@ -2,6 +2,7 @@ gamerule doMobSpawning false
 gamerule mobGriefing false
 gamerule doFireTick false
 gamerule doImmediateRespawn true
+gamerule fallDamage false
 
 scoreboard objectives add server.player.join_detection minecraft.custom:minecraft.leave_game
 scoreboard objectives add stats.player.times_joined dummy
