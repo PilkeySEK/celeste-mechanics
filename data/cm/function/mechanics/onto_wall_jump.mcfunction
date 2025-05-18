@@ -2,8 +2,8 @@ execute store success score on_ground tmp if data entity @s {OnGround:1b}
 
 execute if score on_ground tmp matches 1 run tag @s remove cm.data.onto_wall_jumped
 
-execute anchored eyes if block ^ ^ ^1 #cm:blacklist/common run return 0
 execute if entity @s[tag=cm.data.onto_wall_jumped] run return 0
+execute anchored eyes if block ^ ^ ^1 #cm:blacklist/common run return 0
 
 execute if score on_ground tmp matches 0 run tag @s add cm.data.onto_wall_jumped
 
