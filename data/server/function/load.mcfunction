@@ -3,4 +3,4 @@ gamerule mobGriefing false
 gamerule doFireTick false
 gamerule doImmediateRespawn true
 
-tellraw @a [{"text": "server loaded","color":"aqua"}]
+function msg:power_on {msg:'{"text": "server loaded","color":"aqua"}'}
