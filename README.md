@@ -14,3 +14,6 @@ Without these addons, this would only partially work, if at all
 
 **/playerlist**
 Modifying the player list to show custom things below the normal player list (can be done with plugins too!)
+
+## Useful symbols used
+♯⏩⏪⏴⏵⏶⏷⏻⏼⌚⌛
