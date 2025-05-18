@@ -2,6 +2,7 @@
     "values": [
         "barrier",
         "light",
-        "structure_void"
+        "structure_void",
+        "air"
     ]
 }
