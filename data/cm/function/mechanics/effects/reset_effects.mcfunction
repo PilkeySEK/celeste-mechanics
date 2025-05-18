@@ -1,0 +1,1 @@
+tag @s remove cm.effect.slow_falling
