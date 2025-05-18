@@ -1,5 +1,6 @@
 {
 	"values": [
-	"code:tick"
+		"server:tick",
+		"cm:tick"
 	]
 }
